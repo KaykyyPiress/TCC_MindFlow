@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MindFlow AI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header><div><strong>MindFlow AI</strong><small>Preferências da extensão</small></div><span>30 FPS</span></header>
+
+    <section id="signedOutView">
+      <p>Entre com a mesma conta do site para trazer o visual que você configurou.</p>
+      <form id="loginForm">
+        <label>E-mail<input id="email" type="email" autocomplete="email" required></label>
+        <label>Senha<input id="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit" id="loginButton">Entrar e sincronizar</button>
+      </form>
+    </section>
+
+    <section id="signedInView" hidden>
+      <div class="account"><i>✓</i><div><small>Conta conectada</small><strong id="accountEmail">—</strong></div></div>
+      <p>As preferências alteradas no site são aplicadas ao painel do Meet quando você sincroniza.</p>
+      <button type="button" id="syncButton">Sincronizar agora</button>
+      <button type="button" class="secondary" id="logoutButton">Sair da conta</button>
+    </section>
+
+    <p class="status" id="status" role="status"></p>
+    <footer>Nenhum nome de participante é coletado.</footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

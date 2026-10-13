@@ -1,0 +1,358 @@
+{
+  "model_dir": "C:\\Users\\kayky_agm0fjk\\.codex\\.chatgpt-projects\\g-p-6a83afba097c8191a515610bb21d952f\\mindflow-integration\\models\\apresentacao_TCC",
+  "features_dir": "C:\\Users\\kayky_agm0fjk\\OneDrive\\Documentos\\mindflow_sem_data_set\\outputs\\features\\test",
+  "model_feature_count": 120,
+  "sequence_frames": 30,
+  "stride_frames": 15,
+  "effective_fps_from_metadata": 6.0,
+  "windows": 1200,
+  "clips": 400,
+  "by_window": {
+    "engagement": {
+      "samples": 1200,
+      "accuracy": 0.22,
+      "balanced_accuracy": 0.4222487179143526,
+      "f1_macro": 0.19562121640726263,
+      "precision_macro": 0.30485585277588295,
+      "recall_macro": 0.4222487179143526,
+      "majority_baseline_accuracy": 0.595,
+      "majority_class": "high",
+      "support": [
+        0,
+        57,
+        714,
+        429
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          43,
+          2,
+          12
+        ],
+        [
+          0,
+          425,
+          3,
+          286
+        ],
+        [
+          0,
+          209,
+          2,
+          218
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.00      0.00      0.00         0\n         low       0.06      0.75      0.12        57\n        high       0.43      0.00      0.01       714\n   very_high       0.42      0.51      0.46       429\n\n    accuracy                           0.22      1200\n   macro avg       0.23      0.32      0.15      1200\nweighted avg       0.41      0.22      0.18      1200\n"
+    },
+    "boredom": {
+      "samples": 1200,
+      "accuracy": 0.33166666666666667,
+      "balanced_accuracy": 0.2581074297188755,
+      "f1_macro": 0.18108936777315182,
+      "precision_macro": 0.21946404143344422,
+      "recall_macro": 0.2581074297188755,
+      "majority_baseline_accuracy": 0.415,
+      "majority_class": "very_low",
+      "support": [
+        498,
+        360,
+        312,
+        30
+      ],
+      "confusion_matrix": [
+        [
+          95,
+          398,
+          0,
+          5
+        ],
+        [
+          53,
+          303,
+          1,
+          3
+        ],
+        [
+          14,
+          297,
+          0,
+          1
+        ],
+        [
+          1,
+          29,
+          0,
+          0
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.58      0.19      0.29       498\n         low       0.30      0.84      0.44       360\n        high       0.00      0.00      0.00       312\n   very_high       0.00      0.00      0.00        30\n\n    accuracy                           0.33      1200\n   macro avg       0.22      0.26      0.18      1200\nweighted avg       0.33      0.33      0.25      1200\n"
+    },
+    "confusion": {
+      "samples": 1200,
+      "accuracy": 0.18333333333333332,
+      "balanced_accuracy": 0.25610482430017867,
+      "f1_macro": 0.09007300057537398,
+      "precision_macro": 0.09583683767872161,
+      "recall_macro": 0.25610482430017867,
+      "majority_baseline_accuracy": 0.755,
+      "majority_class": "very_low",
+      "support": [
+        906,
+        219,
+        69,
+        6
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          898,
+          7,
+          1
+        ],
+        [
+          0,
+          218,
+          1,
+          0
+        ],
+        [
+          0,
+          67,
+          2,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.00      0.00      0.00       906\n         low       0.18      1.00      0.31       219\n        high       0.20      0.03      0.05        69\n   very_high       0.00      0.00      0.00         6\n\n    accuracy                           0.18      1200\n   macro avg       0.10      0.26      0.09      1200\nweighted avg       0.04      0.18      0.06      1200\n"
+    },
+    "frustration": {
+      "samples": 1200,
+      "accuracy": 0.3933333333333333,
+      "balanced_accuracy": 0.2521976521976522,
+      "f1_macro": 0.18474955237041235,
+      "precision_macro": 0.24635575112270028,
+      "recall_macro": 0.2521976521976522,
+      "majority_baseline_accuracy": 0.8325,
+      "majority_class": "very_low",
+      "support": [
+        999,
+        165,
+        24,
+        12
+      ],
+      "confusion_matrix": [
+        [
+          366,
+          632,
+          0,
+          1
+        ],
+        [
+          59,
+          106,
+          0,
+          0
+        ],
+        [
+          7,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.85      0.37      0.51       999\n         low       0.14      0.64      0.23       165\n        high       0.00      0.00      0.00        24\n   very_high       0.00      0.00      0.00        12\n\n    accuracy                           0.39      1200\n   macro avg       0.25      0.25      0.18      1200\nweighted avg       0.72      0.39      0.46      1200\n"
+    }
+  },
+  "by_clip": {
+    "engagement": {
+      "samples": 400,
+      "accuracy": 0.2125,
+      "balanced_accuracy": 0.42539761580009255,
+      "f1_macro": 0.1913392538773373,
+      "precision_macro": 0.4933467776686144,
+      "recall_macro": 0.42539761580009255,
+      "majority_baseline_accuracy": 0.595,
+      "majority_class": "high",
+      "support": [
+        0,
+        19,
+        238,
+        143
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          4
+        ],
+        [
+          0,
+          144,
+          1,
+          93
+        ],
+        [
+          0,
+          74,
+          0,
+          69
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.00      0.00      0.00         0\n         low       0.06      0.79      0.12        19\n        high       1.00      0.00      0.01       238\n   very_high       0.42      0.48      0.45       143\n\n    accuracy                           0.21       400\n   macro avg       0.37      0.32      0.14       400\nweighted avg       0.75      0.21      0.17       400\n"
+    },
+    "boredom": {
+      "samples": 400,
+      "accuracy": 0.335,
+      "balanced_accuracy": 0.2612700803212851,
+      "f1_macro": 0.18133372734436565,
+      "precision_macro": 0.22857142857142856,
+      "recall_macro": 0.2612700803212851,
+      "majority_baseline_accuracy": 0.415,
+      "majority_class": "very_low",
+      "support": [
+        166,
+        120,
+        104,
+        10
+      ],
+      "confusion_matrix": [
+        [
+          31,
+          135,
+          0,
+          0
+        ],
+        [
+          17,
+          103,
+          0,
+          0
+        ],
+        [
+          2,
+          102,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.62      0.19      0.29       166\n         low       0.29      0.86      0.44       120\n        high       0.00      0.00      0.00       104\n   very_high       0.00      0.00      0.00        10\n\n    accuracy                           0.34       400\n   macro avg       0.23      0.26      0.18       400\nweighted avg       0.35      0.34      0.25       400\n"
+    },
+    "confusion": {
+      "samples": 400,
+      "accuracy": 0.185,
+      "balanced_accuracy": 0.2608695652173913,
+      "f1_macro": 0.09749469214437367,
+      "precision_macro": 0.1708542713567839,
+      "recall_macro": 0.2608695652173913,
+      "majority_baseline_accuracy": 0.755,
+      "majority_class": "very_low",
+      "support": [
+        302,
+        73,
+        23,
+        2
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          301,
+          1,
+          0
+        ],
+        [
+          0,
+          73,
+          0,
+          0
+        ],
+        [
+          0,
+          22,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.00      0.00      0.00       302\n         low       0.18      1.00      0.31        73\n        high       0.50      0.04      0.08        23\n   very_high       0.00      0.00      0.00         2\n\n    accuracy                           0.18       400\n   macro avg       0.17      0.26      0.10       400\nweighted avg       0.06      0.18      0.06       400\n"
+    },
+    "frustration": {
+      "samples": 400,
+      "accuracy": 0.395,
+      "balanced_accuracy": 0.2552279552279552,
+      "f1_macro": 0.18584356819650938,
+      "precision_macro": 0.24830616853963156,
+      "recall_macro": 0.2552279552279552,
+      "majority_baseline_accuracy": 0.8325,
+      "majority_class": "very_low",
+      "support": [
+        333,
+        55,
+        8,
+        4
+      ],
+      "confusion_matrix": [
+        [
+          122,
+          211,
+          0,
+          0
+        ],
+        [
+          19,
+          36,
+          0,
+          0
+        ],
+        [
+          2,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0
+        ]
+      ],
+      "classification_report": "              precision    recall  f1-score   support\n\n    very_low       0.85      0.37      0.51       333\n         low       0.14      0.65      0.23        55\n        high       0.00      0.00      0.00         8\n   very_high       0.00      0.00      0.00         4\n\n    accuracy                           0.40       400\n   macro avg       0.25      0.26      0.19       400\nweighted avg       0.73      0.40      0.46       400\n"
+    }
+  }
+}

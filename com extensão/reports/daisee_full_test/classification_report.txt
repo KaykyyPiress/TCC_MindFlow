@@ -1,0 +1,104 @@
+
+========================================================================
+JANELA
+========================================================================
+
+--- ENGAGEMENT ---
+              precision    recall  f1-score   support
+
+    very_low       0.00      0.00      0.00         0
+         low       0.06      0.75      0.12        57
+        high       0.43      0.00      0.01       714
+   very_high       0.42      0.51      0.46       429
+
+    accuracy                           0.22      1200
+   macro avg       0.23      0.32      0.15      1200
+weighted avg       0.41      0.22      0.18      1200
+
+--- BOREDOM ---
+              precision    recall  f1-score   support
+
+    very_low       0.58      0.19      0.29       498
+         low       0.30      0.84      0.44       360
+        high       0.00      0.00      0.00       312
+   very_high       0.00      0.00      0.00        30
+
+    accuracy                           0.33      1200
+   macro avg       0.22      0.26      0.18      1200
+weighted avg       0.33      0.33      0.25      1200
+
+--- CONFUSION ---
+              precision    recall  f1-score   support
+
+    very_low       0.00      0.00      0.00       906
+         low       0.18      1.00      0.31       219
+        high       0.20      0.03      0.05        69
+   very_high       0.00      0.00      0.00         6
+
+    accuracy                           0.18      1200
+   macro avg       0.10      0.26      0.09      1200
+weighted avg       0.04      0.18      0.06      1200
+
+--- FRUSTRATION ---
+              precision    recall  f1-score   support
+
+    very_low       0.85      0.37      0.51       999
+         low       0.14      0.64      0.23       165
+        high       0.00      0.00      0.00        24
+   very_high       0.00      0.00      0.00        12
+
+    accuracy                           0.39      1200
+   macro avg       0.25      0.25      0.18      1200
+weighted avg       0.72      0.39      0.46      1200
+
+========================================================================
+CLIPE
+========================================================================
+
+--- ENGAGEMENT ---
+              precision    recall  f1-score   support
+
+    very_low       0.00      0.00      0.00         0
+         low       0.06      0.79      0.12        19
+        high       1.00      0.00      0.01       238
+   very_high       0.42      0.48      0.45       143
+
+    accuracy                           0.21       400
+   macro avg       0.37      0.32      0.14       400
+weighted avg       0.75      0.21      0.17       400
+
+--- BOREDOM ---
+              precision    recall  f1-score   support
+
+    very_low       0.62      0.19      0.29       166
+         low       0.29      0.86      0.44       120
+        high       0.00      0.00      0.00       104
+   very_high       0.00      0.00      0.00        10
+
+    accuracy                           0.34       400
+   macro avg       0.23      0.26      0.18       400
+weighted avg       0.35      0.34      0.25       400
+
+--- CONFUSION ---
+              precision    recall  f1-score   support
+
+    very_low       0.00      0.00      0.00       302
+         low       0.18      1.00      0.31        73
+        high       0.50      0.04      0.08        23
+   very_high       0.00      0.00      0.00         2
+
+    accuracy                           0.18       400
+   macro avg       0.17      0.26      0.10       400
+weighted avg       0.06      0.18      0.06       400
+
+--- FRUSTRATION ---
+              precision    recall  f1-score   support
+
+    very_low       0.85      0.37      0.51       333
+         low       0.14      0.65      0.23        55
+        high       0.00      0.00      0.00         8
+   very_high       0.00      0.00      0.00         4
+
+    accuracy                           0.40       400
+   macro avg       0.25      0.26      0.19       400
+weighted avg       0.73      0.40      0.46       400

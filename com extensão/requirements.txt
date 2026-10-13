@@ -1,0 +1,15 @@
+# MediaPipe 0.10.x ainda depende do ecossistema NumPy/OpenCV 1.x/4.x.
+# Os limites evitam que uma instalação futura misture OpenCV 5 com wheels 4.x.
+numpy>=1.26,<2
+opencv-contrib-python>=4.9,<5
+mediapipe==0.10.14
+# Dependências transitivas compatíveis com NumPy 1.26.
+jax==0.4.35
+jaxlib==0.4.35
+ml-dtypes>=0.4,<0.5
+torch>=2.2,<3
+joblib>=1.3,<2
+# Os artefatos scaler.joblib/pca.joblib foram serializados nesta versão.
+scikit-learn==1.8.0
+imbalanced-learn>=0.14,<0.15
+

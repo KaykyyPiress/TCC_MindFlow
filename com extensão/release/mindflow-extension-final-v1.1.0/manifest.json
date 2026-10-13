@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "MindFlow AI — Controle Local",
+  "version": "1.1.0",
+  "description": "Seleção explícita de fontes do Google Meet e análise local com MediaPipe no Python.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "https://xeykjfytdvqtgcewvoii.supabase.co/*"
+  ],
+  "action": {
+    "default_title": "MindFlow AI",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
